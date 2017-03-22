@@ -1,0 +1,17 @@
+html, body { height: 100%; }
+
+#root { height: 100%; }
+#root > div { height: 100%; display: flex; flex-direction: column; }
+
+.payload { height: 100%; }
+.payload > ul { margin: 0 !important; height: 100%; padding: 6px !important; }
+
+.fetch-form { padding: 20px; }
+.fetch-form input { width: 350px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
